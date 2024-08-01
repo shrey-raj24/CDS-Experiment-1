@@ -49,7 +49,7 @@ int main() { <br>
     return 0;
 ```
 } <br>
-![exp1] <br>
+![exp1](https://github.com/shrey-raj24/CDS-Experiment-1/blob/main/Screenshot%202024-08-01%20230646.png) <br>
 
 Conclusion:<br>
 In this experiment we learnt, how to print HELLO WORLD and also to find the sum of two numbers, average , even odd and to check the entered year is leap or not.<br>
