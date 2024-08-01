@@ -1,34 +1,64 @@
-Aim -> Downloading and isntalling VS Code, (Hello World and Calculator Program).
+CDS Experiment -01 <br>
+Aim: To install VS CODE and print "HELLO WORLD" including sum, average, even odd and leap year. <br>
+Theory: In this program we have printed HELLO WORLD  and find the sum of two number (user input), average, even odd and also to check if entered year is leap year of not using basic C++ language.<br>
+Code for the program as follows:<br>
+// Shrey Raj <br>
+//23070123123 <br>
+//experiment 1 <br>
 
-Software -> Visual Studio Code
+```
+#include <iostream> <br>
+using namespace std; <br>
 
-Theory -> C++ is a high level object-oriented programming language. It is also known as "C with class".
-It was developed by Bjarne Stroustrup in 1979.
-It implements all the OOPs concepts.
-It is a compiled language.
-(A) To print an output in C++ we use cout command.
-Syntax: cout<<value_to_print<<value_to_print;
-(B) Basic arithematic operations like addition, subtravtion, multiplication and division can be performed.
-To take input from the user, we use "cin" command.
-Syntax: cin>>value_to_be_entered;
+int main() { <br>
+    cout << "Hello world" << endl;
 
-Code:
-#include<iostream>  
-using namespace std;
-int main()
-{ 
-    cout<<"HELLO WORLD!";     
+    int a, b;
+    cout << "Enter the value of the first number: ";  
+    cin >> a;
+
+    cout << "Enter the value of the second number: ";
+    cin >> b;
+
+    int sum = a + b;
+    cout << "The sum of the two numbers is: " << sum << endl;
+    
+    int avg = (a + b) / 2;
+    cout << "The average of the two numbers is: " << avg << endl;
+
+    int c;
+    cout << "Enter a number: ";
+    cin >> c;
+
+    if (c % 2 == 0) {
+        cout << "The number is even." << endl;
+    } else {
+        cout << "The number is odd." << endl;
+    }
+
+    int d;
+    cout << "Enter the year you want to check whether it is a leap year or not: ";
+    cin >> d;
+
+    if ((d % 400 == 0) || (d % 100 != 0 && d % 4 == 0)) {
+        cout << "The year entered is a leap year." << endl;
+    } else {
+        cout << "The year entered is not a leap year." << endl;
+    }
+
     return 0;
-}
-OUTPUT
-(A)
+```
+} <br>
+![exp1] <br>
 
-(B)
-
-
-
+Conclusion:<br>
+In this experiment we learnt, how to print HELLO WORLD and also to find the sum of two numbers, average , even odd and to check the entered year is leap or not.<br>
 
 
-Conclusion -> In this experiment, I learnt about C++ programming lnguage, its basic commands and also made a program for calculator.
+
+
+
+
+
 
 
