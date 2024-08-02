@@ -49,8 +49,8 @@ int main() { <br>
 
     return 0;
 ```
-} <br>
-Output:
+} <br> Output:
+
 ![exp1](https://github.com/shrey-raj24/CDS-Experiment-1/blob/main/Screenshot%202024-08-01%20230646.png) <br>
 
 Conclusion:<br>
